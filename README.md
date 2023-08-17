@@ -117,10 +117,6 @@ require('@unicode/unicode-15.1.0/Binary_Property/Changes_When_Lowercased/code-po
 require('@unicode/unicode-15.1.0/Binary_Property/Changes_When_Lowercased/symbols.js');
 require('@unicode/unicode-15.1.0/Binary_Property/Changes_When_Lowercased/regex.js');
 
-require('@unicode/unicode-15.1.0/Binary_Property/Changes_When_NFKC_Casefolded/code-points.js');
-require('@unicode/unicode-15.1.0/Binary_Property/Changes_When_NFKC_Casefolded/symbols.js');
-require('@unicode/unicode-15.1.0/Binary_Property/Changes_When_NFKC_Casefolded/regex.js');
-
 require('@unicode/unicode-15.1.0/Binary_Property/Changes_When_Titlecased/code-points.js');
 require('@unicode/unicode-15.1.0/Binary_Property/Changes_When_Titlecased/symbols.js');
 require('@unicode/unicode-15.1.0/Binary_Property/Changes_When_Titlecased/regex.js');
@@ -269,9 +265,9 @@ require('@unicode/unicode-15.1.0/Binary_Property/Math/code-points.js');
 require('@unicode/unicode-15.1.0/Binary_Property/Math/symbols.js');
 require('@unicode/unicode-15.1.0/Binary_Property/Math/regex.js');
 
-require('@unicode/unicode-15.1.0/Binary_Property/NFKC_SCF/code-points.js');
-require('@unicode/unicode-15.1.0/Binary_Property/NFKC_SCF/symbols.js');
-require('@unicode/unicode-15.1.0/Binary_Property/NFKC_SCF/regex.js');
+require('@unicode/unicode-15.1.0/Binary_Property/NFKC_Simple_Casefold/code-points.js');
+require('@unicode/unicode-15.1.0/Binary_Property/NFKC_Simple_Casefold/symbols.js');
+require('@unicode/unicode-15.1.0/Binary_Property/NFKC_Simple_Casefold/regex.js');
 
 require('@unicode/unicode-15.1.0/Binary_Property/Noncharacter_Code_Point/code-points.js');
 require('@unicode/unicode-15.1.0/Binary_Property/Noncharacter_Code_Point/symbols.js');
@@ -3143,6 +3139,18 @@ require('@unicode/unicode-15.1.0/Bidi_Paired_Bracket_Type/Open/regex.js');
 
 // `Line_Break`:
 
+require('@unicode/unicode-15.1.0/Line_Break/Aksara/code-points.js');
+require('@unicode/unicode-15.1.0/Line_Break/Aksara/symbols.js');
+require('@unicode/unicode-15.1.0/Line_Break/Aksara/regex.js');
+
+require('@unicode/unicode-15.1.0/Line_Break/Aksara_Prebase/code-points.js');
+require('@unicode/unicode-15.1.0/Line_Break/Aksara_Prebase/symbols.js');
+require('@unicode/unicode-15.1.0/Line_Break/Aksara_Prebase/regex.js');
+
+require('@unicode/unicode-15.1.0/Line_Break/Aksara_Start/code-points.js');
+require('@unicode/unicode-15.1.0/Line_Break/Aksara_Start/symbols.js');
+require('@unicode/unicode-15.1.0/Line_Break/Aksara_Start/regex.js');
+
 require('@unicode/unicode-15.1.0/Line_Break/Alphabetic/code-points.js');
 require('@unicode/unicode-15.1.0/Line_Break/Alphabetic/symbols.js');
 require('@unicode/unicode-15.1.0/Line_Break/Alphabetic/regex.js');
@@ -3303,6 +3311,14 @@ require('@unicode/unicode-15.1.0/Line_Break/Unknown/code-points.js');
 require('@unicode/unicode-15.1.0/Line_Break/Unknown/symbols.js');
 require('@unicode/unicode-15.1.0/Line_Break/Unknown/regex.js');
 
+require('@unicode/unicode-15.1.0/Line_Break/Virama/code-points.js');
+require('@unicode/unicode-15.1.0/Line_Break/Virama/symbols.js');
+require('@unicode/unicode-15.1.0/Line_Break/Virama/regex.js');
+
+require('@unicode/unicode-15.1.0/Line_Break/Virama_Final/code-points.js');
+require('@unicode/unicode-15.1.0/Line_Break/Virama_Final/symbols.js');
+require('@unicode/unicode-15.1.0/Line_Break/Virama_Final/regex.js');
+
 require('@unicode/unicode-15.1.0/Line_Break/Word_Joiner/code-points.js');
 require('@unicode/unicode-15.1.0/Line_Break/Word_Joiner/symbols.js');
 require('@unicode/unicode-15.1.0/Line_Break/Word_Joiner/regex.js');
@@ -3314,10 +3330,6 @@ require('@unicode/unicode-15.1.0/Line_Break/ZWJ/regex.js');
 require('@unicode/unicode-15.1.0/Line_Break/ZWSpace/code-points.js');
 require('@unicode/unicode-15.1.0/Line_Break/ZWSpace/symbols.js');
 require('@unicode/unicode-15.1.0/Line_Break/ZWSpace/regex.js');
-
-require('@unicode/unicode-15.1.0/Line_Break/undefined/code-points.js');
-require('@unicode/unicode-15.1.0/Line_Break/undefined/symbols.js');
-require('@unicode/unicode-15.1.0/Line_Break/undefined/regex.js');
 
 // `Word_Break`:
 
