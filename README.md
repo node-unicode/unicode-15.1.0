@@ -249,6 +249,10 @@ require('@unicode/unicode-15.1.0/Binary_Property/Ideographic/code-points.js');
 require('@unicode/unicode-15.1.0/Binary_Property/Ideographic/symbols.js');
 require('@unicode/unicode-15.1.0/Binary_Property/Ideographic/regex.js');
 
+require('@unicode/unicode-15.1.0/Binary_Property/InCB/code-points.js');
+require('@unicode/unicode-15.1.0/Binary_Property/InCB/symbols.js');
+require('@unicode/unicode-15.1.0/Binary_Property/InCB/regex.js');
+
 require('@unicode/unicode-15.1.0/Binary_Property/Join_Control/code-points.js');
 require('@unicode/unicode-15.1.0/Binary_Property/Join_Control/symbols.js');
 require('@unicode/unicode-15.1.0/Binary_Property/Join_Control/regex.js');
@@ -264,6 +268,10 @@ require('@unicode/unicode-15.1.0/Binary_Property/Lowercase/regex.js');
 require('@unicode/unicode-15.1.0/Binary_Property/Math/code-points.js');
 require('@unicode/unicode-15.1.0/Binary_Property/Math/symbols.js');
 require('@unicode/unicode-15.1.0/Binary_Property/Math/regex.js');
+
+require('@unicode/unicode-15.1.0/Binary_Property/NFKC_SCF/code-points.js');
+require('@unicode/unicode-15.1.0/Binary_Property/NFKC_SCF/symbols.js');
+require('@unicode/unicode-15.1.0/Binary_Property/NFKC_SCF/regex.js');
 
 require('@unicode/unicode-15.1.0/Binary_Property/Noncharacter_Code_Point/code-points.js');
 require('@unicode/unicode-15.1.0/Binary_Property/Noncharacter_Code_Point/symbols.js');
@@ -3306,6 +3314,10 @@ require('@unicode/unicode-15.1.0/Line_Break/ZWJ/regex.js');
 require('@unicode/unicode-15.1.0/Line_Break/ZWSpace/code-points.js');
 require('@unicode/unicode-15.1.0/Line_Break/ZWSpace/symbols.js');
 require('@unicode/unicode-15.1.0/Line_Break/ZWSpace/regex.js');
+
+require('@unicode/unicode-15.1.0/Line_Break/undefined/code-points.js');
+require('@unicode/unicode-15.1.0/Line_Break/undefined/symbols.js');
+require('@unicode/unicode-15.1.0/Line_Break/undefined/regex.js');
 
 // `Word_Break`:
 
